@@ -8,17 +8,18 @@ pip pillow
 ## Install ##
 ```
 $ git clone https://github.com/arabian9ts/IconResizer
+$ chmod 755 IconResizer/resizer
 ```
 
 ## Use ##
 example...
 ```
-$ python resizer.py IMG_NAME 16 32 48
+$ resizer IMG_NAME 16 32 48
 ```
 
 ### Try sample ###
+after install...
 ```
-$ git clone https://github.com/arabian9ts/IconResizer
 $ cd IconResizer/sample
-$ python ../resizer.py sample.png 10 20 30
+$ ./resizer sample.png 10 20 30
 ```
